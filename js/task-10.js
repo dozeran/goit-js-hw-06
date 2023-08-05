@@ -28,4 +28,5 @@ function createBoxes() {
 
 function destroyBoxes() {
   refs.boxesDiv.innerHTML = "";
+  refs.inputNumber.value = null;
 }
